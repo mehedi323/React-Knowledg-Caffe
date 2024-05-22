@@ -1,0 +1,53 @@
+[
+    {
+      "id": "001",
+      "cover": "https://i.ibb.co/YpdjTK1/photo-1498050108023-c5249f4df085.jpg",
+      "title": "The Enchanted Forest",
+      "author": "Emily Woods",
+      "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
+      "posted_date": "2023-03-15",
+      "reading_time": "7 minutes",
+      "hashtags": ["#Fantasy", "#Adventure", "#Nature"]
+    },
+    {
+      "id": "002",
+      "cover": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+      "title": "The Science of Happiness",
+      "author": "Dr. John Bennett",
+      "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
+      "posted_date": "2023-04-10",
+      "reading_time": "5 minutes",
+      "hashtags": ["#Psychology", "#Wellbeing", "#SelfHelp"]
+    },
+    {
+      "id": "003",
+      "cover": "https://i.ibb.co/hg6PyFY/photo-1715594565265-26e6b44763e2.jpg",
+      "title": "Culinary Travels: A Journey Through Italy",
+      "author": "Maria Rossi",
+      "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
+      "posted_date": "2023-02-25",
+      "reading_time": "10 minutes",
+      "hashtags": ["#Travel", "#Food", "#Italy"]
+    },
+    {
+      "id": "004",
+      "cover": "https://i.ibb.co/YNY6F45/ilyuza-mingazova-1p-XMWXo-Dhik-unsplash.jpg",
+      "title": "The Future of Technology",
+      "author": "Alex Turner",
+      "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
+      "posted_date": "2023-05-01",
+      "reading_time": "8 minutes",
+      "hashtags": ["#Tech", "#Innovation", "#AI"]
+    },
+    {
+      "id": "005",
+      "cover": "https://i.ibb.co/ncRTqbv/gabrielle-henderson-UNK3s-Uhp0s8-unsplash.jpg",
+      "title": "Mindful Living: Tips for a Balanced Life",
+      "author": "Sophia Lee",
+      "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
+      "posted_date": "2023-01-20",
+      "reading_time": "6 minutes",
+      "hashtags": ["#Mindfulness", "#Lifestyle", "#Health"]
+    }
+  ]
+  
