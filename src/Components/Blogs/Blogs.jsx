@@ -4,7 +4,7 @@ import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types'
 
 
-const Blogs = ({handleBookMarks}) => {
+const Blogs = ({handleBookMarks, handleReadingTime}) => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
@@ -14,12 +14,13 @@ const Blogs = ({handleBookMarks}) => {
     }, [])
 
     return (
-        <div className="md:w-2/3">
-            <h3>Knowledg-Cage: {blogs.length} </h3>
+        <div className="md:w-2/3 ">
+            <h3 className="border-b-2 border-solid py-2 border-gray-200">Knowledg-Cage: {blogs.length} </h3>
             {
                 blogs.map(blog =>
                      <Blog key={blog.id}
                      handleBookMarks={handleBookMarks} 
+                     handleReadingTime={handleReadingTime}
                       blog={blog}> 
                       </Blog> )
             }

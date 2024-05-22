@@ -6,7 +6,7 @@
       "author": "Emily Woods",
       "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
       "posted_date": "2023-03-15",
-      "reading_time": "7 minutes",
+      "reading_time": 7,
       "hashtags": ["#Fantasy", "#Adventure", "#Nature"]
     },
     {
@@ -16,7 +16,7 @@
       "author": "Dr. John Bennett",
       "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
       "posted_date": "2023-04-10",
-      "reading_time": "5 minutes",
+      "reading_time": 5,
       "hashtags": ["#Psychology", "#Wellbeing", "#SelfHelp"]
     },
     {
@@ -26,7 +26,7 @@
       "author": "Maria Rossi",
       "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
       "posted_date": "2023-02-25",
-      "reading_time": "10 minutes",
+      "reading_time": 10,
       "hashtags": ["#Travel", "#Food", "#Italy"]
     },
     {
@@ -36,7 +36,7 @@
       "author": "Alex Turner",
       "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
       "posted_date": "2023-05-01",
-      "reading_time": "8 minutes",
+      "reading_time":8,
       "hashtags": ["#Tech", "#Innovation", "#AI"]
     },
     {
@@ -46,7 +46,7 @@
       "author": "Sophia Lee",
       "author_img": "https://i.ibb.co/4jj5Ycw/illustration-businessman-53876-5856.jpg",
       "posted_date": "2023-01-20",
-      "reading_time": "6 minutes",
+      "reading_time": 6,
       "hashtags": ["#Mindfulness", "#Lifestyle", "#Health"]
     }
   ]

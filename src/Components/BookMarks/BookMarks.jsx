@@ -1,20 +1,24 @@
 import PropTypes from 'prop-types';
 import BookMark from '../BookMark/BookMark';
 
-const BookMarks = ({bookMarks}) => {
-    console.log(bookMarks);
+const BookMarks = ({ bookMarks, readinTime }) => {
     return (
-        <div className="md:w-1/3 p-4 bg-gray-200 rounded-2xl mt-14 ">
-            <h2 className='text-xl font-bold'>BookMarks: {bookMarks.length}</h2>
+        <div className="md:w-1/3">
+            <h2 className="text-xl font-bold">Spent time on read : {readinTime} min</h2>
+            <div className=' bg-gray-200 rounded-2xl mt-10 p-4  '>
+                <h2 className='text-xl font-bold'>BookMarks: {bookMarks.length}</h2>
+            </div>
+
             {
-                bookMarks.map(bookMark=> <BookMark key={bookMark.id} bookMarks={bookMark}></BookMark>)
+                bookMarks.map(bookMark => <BookMark key={bookMark.id} bookMarks={bookMark}></BookMark>)
             }
         </div>
     );
 };
 
 BookMarks.propTypes = {
-    bookMarks: PropTypes.object
+    bookMarks: PropTypes.object,
+    readinTime: PropTypes.object
 }
 
 export default BookMarks;
